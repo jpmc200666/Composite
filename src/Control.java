@@ -15,7 +15,7 @@ public class Control {
 
     public void imprimirLista(){
         for(int i = 0; i < departamentoJefe.getDependencias().size(); i++){
-            System.out.println(departamentoJefe.getDependencias().get(i));
+            departamentoJefe.getDependencias().get(i).mostrarNombreApartamento();
         }
     }
 }
